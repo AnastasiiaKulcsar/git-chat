@@ -1,0 +1,9 @@
+isSplash="true"
+checkInHome="true"
+splashDelay=1
+#info_delay=5
+message_delay=10
+error_delay=3
+baseFolder="/home/solem2/workspace/git-chat-solem2"
+chat_file="/home/solem2/workspace/git-chat-solem2/backend/chat"
+current_time=$(date "+%d.%m.%y %H:%M:%S")

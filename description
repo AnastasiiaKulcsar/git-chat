@@ -1,0 +1,18 @@
+Unnamed repository; edit this file 'description' to name the repository.
+# Git-Chat Project
+
+## Introduction
+Git-Chat is a simple distributed chat application built using Git as the backend. Messages are shared between users by pushing and pulling commits to a central bare repository.
+
+## Methods
+1. A bare Git repository is used to manage chat messages.
+2. Users clone the backend and use `git commit`, `git fetch`, and `git push` for communication.
+3. Bash scripting is used to automate message handling.
+
+## Results
+- Multi-user communication via Git is functional.
+- Chat logs are displayed with `git log`.
+- Conflict handling is supported by Git's merge mechanism.
+
+## Discussion
+Git-Chat demonstrates the power of Git for distributed systems. Future improvements could include encryption, better UI formatting, and error handling.
